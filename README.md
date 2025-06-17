@@ -36,28 +36,6 @@ It supports user management, authentication, posting, commenting, and robust err
 
 ---
 
-## 🛠 Architecture at a Glance
-
-┌──────────────┐
-│ controllers │ ➜ REST endpoints / DTO mapping
-└──────────────┘
-│
-┌──────────────┐
-│ services │ ➜ business rules, transactions
-└──────────────┘
-│
-┌──────────────┐
-│ repositories │ ➜ Spring Data JPA (Postgres/H2)
-└──────────────┘
-│
-┌──────────────┐
-│ models │ ➜ JPA entities
-└──────────────┘
-
-Clean, layered design—controllers never talk to JPA directly, and entities never “know” about HTTP.
-
----
-
 ## 🚀 Getting Started
 
 ### 1 · Clone & build
