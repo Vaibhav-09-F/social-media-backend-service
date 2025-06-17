@@ -58,15 +58,17 @@ docker compose up --build
 # API → http://localhost:8080
 ```
 
-📚 API Reference
-Method	Endpoint	Description
-POST	/api/v1/auth/register	Register new user
-POST	/api/v1/auth/login	Login & receive JWT
-GET	/api/v1/users/{id}	Fetch profile
-POST	/api/v1/posts	Create post
-GET	/api/v1/posts?page=0	List posts (paginated)
-POST	/api/v1/posts/{id}/comments	Comment on a post
-…	More in Swagger	
+---
+
+### API Reference
+
+* Method	Endpoint	Description
+* POST	/api/v1/auth/register	Register new user
+* POST	/api/v1/auth/login	Login & receive JWT
+* GET	/api/v1/users/{id}	Fetch profile
+* POST	/api/v1/posts	Create post
+* GET	/api/v1/posts?page=0	List posts (paginated)
+* POST	/api/v1/posts/{id}/comments	Comment on a post
 
 👉 Import the bundled Postman collection: postman/social-media-backend.postman_collection.json.
 
